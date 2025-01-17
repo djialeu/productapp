@@ -36,4 +36,4 @@ lancer
 - npm install
 - npm start 
 
-Le projet est lancer au http://localhost:8080
+Le projet est lancer au http://localhost:3000
