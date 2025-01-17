@@ -2,17 +2,13 @@
 
 cloner le repository 
 
-git clone
+git clone git@github.com:djialeu/productapp.git
 
 creer un fichier .env a la racine du projet (au meme niveau que pom.xml) et rajouter les variables suivantes :
 
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=password
 POSTGRES_DB=product
-
-SPRING_DATASOURCE_URL=jdbc:postgresql://localhost:5432/product
-SPRING_DATASOURCE_USERNAME=postgres
-SPRING_DATASOURCE_PASSWORD=password
 
 NB:  En cas de lancement sans docker, veuillez mettre à jour les valeurs des variables avec leur correspondance en local sur votre pc (postgres_user, postgres_password, spring_datasource_username, spring_datasource_password). 
      N'oubliez pas de creer la base de donnees "product"
